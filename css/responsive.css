@@ -19,7 +19,7 @@
 }
 
 @media (max-width: 768px) {
-  #menu-btn {
+  .header #menu-btn {
     display: inline-block;
   }
   .header .navbar {
@@ -42,5 +42,15 @@
     margin: 1.5rem;
     padding: 0.5rem;
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 50%;
+  }
+
+  .header #menu-btn {
+    display: inline-block;
   }
 }
